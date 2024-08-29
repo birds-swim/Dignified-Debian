@@ -11,7 +11,18 @@ Perhaps new Linux users might find this guide helpful?
 
 (1) My favorite distro.
 
-(2) To desktop Debian users (new and old): Have you ever found yourself tired of the "pre/post-install" chores that come with vanilla Debian? If these situations at all apply to you: installing Debian with Btrfs+Snapper, configuring Btrfs options and subvolume layout, configuring `sudo`, setting up timezones, installing zRAM/zRAM-Swap, enabling Debian Backports, installing Flatpak, or getting nonfree firmware/codecs installed on your computer, installing Grub Customizer, then Spiral Linux is for you. The Spiral Linux website does a pretty good job explaining what Spiral Linux is and isn't, but if you need a review article then here's one of my favorites: https://fosstopia.de/spiral-linux-gnome-2024. Yeah, it's in German, but your web browser should be able to translate the page for you (or grab an translator extension for Firefox/Chromium) so that didn't bother me. Spiral Linux is 100% Debian Stable. Which is what makes Spiral Linux glorious. It's not a derrivative work. There are no 3rd party repos/packages or distro-specific tools that might go away or worry about switching distros if the developer ever stops working on Spiral Linux. You get a sweet, awesome, and sanely configured Debian for the desktop that saves you time and is easy to administer.
+(2) To desktop Debian users (new and old): Have you ever found yourself tired of the "pre/post-install" chores that come with vanilla Debian? If any of these situations at all apply to you: 
+- installing Debian with Btrfs+Snapper
+- configuring Btrfs options and subvolume layout
+- configuring `sudo`
+- setting up timezones
+- installing zRAM/zRAM-Swap
+- enabling Debian Backports
+- installing Flatpak
+- getting nonfree firmware/codecs installed on your computer
+- installing Grub Customizer
+
+...then Spiral Linux is for you. The Spiral Linux website does a pretty good job explaining what Spiral Linux is and isn't, but if you need a review article then here's one of my favorites: https://fosstopia.de/spiral-linux-gnome-2024. Yeah, it's in German, but your web browser should be able to translate the page for you (or grab an translator extension for Firefox/Chromium) so that didn't bother me. Spiral Linux is 100% Debian Stable. Which is what makes Spiral Linux glorious. It's not a derrivative work. There are no 3rd party repos/packages or distro-specific tools that might go away or worry about switching distros if the developer ever stops working on Spiral Linux. You get a sweet, awesome, and sanely configured Debian for the desktop that saves you time and is easy to administer.
 
 There's a popular, negative saying about Linux that goes like this: "Linux is free if you don't value your time." With Spiral Linux, now you get to keep both your time and your money.
 
