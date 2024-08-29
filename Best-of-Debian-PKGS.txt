@@ -1,0 +1,76 @@
+###############################################
+###        BEST OF DEBIAN PACKAGES          ###
+###############################################
+
+# This text file is a list containing the very best software available
+# from the Debian Stable repositories. It's a currated list containing
+# software packages that I have researched myself and from community suggestions
+# from r/Debian.
+#
+# For details what the Debian Community recommended, please see:
+# https://www.reddit.com/r/debian/comments/1eu6wcr/what_are_some_must_have_pieces_of_software_that/
+# 
+# I plan to use this list today and for future installs of Spiral Linux Builder Edition.
+# I hope to upload this to GitHub or [somewhere else] for easy access.
+#
+# This is my greatest "Essentials Kit". It contains everything that a Spiral Linux
+# system would need to be truly great and improve Quality of Life for the User and
+# for however long the system is used.
+#
+# The core principles behind this list are: Reliability/Dependability, Ease-of-Use,
+# and Verbosity. Verbosity: packages that help inform the User what's going on in
+# their system. Example: The needrestart package from the debian-goodies lets
+# the User know if they need to restart their computer after apt upgrade is performed.
+#
+# This list should be fed to apt-get and NOT apt. apt-get is better suited for
+# shell scripts and other fancy Terminal Magic/Linux Fu.
+# 
+
+############################# BEGIN LIST:
+
+### bashtop, bpytop, and btop are all made by the same developer with btop being the latest.
+### Use btop!
+btop
+mpv
+### File Managers (comment out the ones you don't want)
+nnn
+mc
+#################
+yt-dlp
+lm-sensors
+mlocate
+nvtop
+radeontop
+tldr
+hstr
+### Possibly Rust based?
+# zoxide eza lsd fzf fd-find bat duf ncdu
+cowsay
+lolcat
+tilix
+kitty
+trash-cli
+tree
+needrestart
+pv
+byobu
+command-not-found
+build-essential
+sl
+ccache #I hope I'll never need this
+neofetch
+cpufetch
+ddgr
+iotop
+irssi
+liquidprompt
+lm-sensors
+lshw
+ufw
+pv
+strace
+tmux
+tmuxinator
+zoxide
+### Hecking brilliant! Share mouse, keyboard, and clipboard over the network (software based instead of hardware based KVM switcher)
+barrier
