@@ -1,0 +1,65 @@
+2024.08.25
+
+SLBE Security Suite Lite
+
+DISCLAIMER: I AM NOT A SECURITY PROFESSIONAL. I AM A RANDOM DUDE ON THE INTERNET. I PROVIDE
+THIS TO YOU IN THE HOPES IT WILL BE USEFUL. THERE IS NO WARRANTY OR FITNESS FOR ANY
+PARTICULAR PURPOSE. BY USING THIS GUIDE YOU DO SO AT YOUR OWN RISK. BACK UP YOUR DATA.
+
+1. INTRODUCTION
+
+List of software used to LIGHTLY improve/enhance the security of the base Debian system.
+Extreme security hardening is outside the scope of this project, which is to provide
+family members with an easy-to-use Linux system that is slightly more secure than the
+stock Debian/Spiral Linux defaults (and default packages). 
+
+For this project Convenience > Security.
+
+If you're looking for a hardened setup with Linux, then please consider:
+(1) secureblue  https://github.com/secureblue/secureblue
+(2) Kicksecure  https://www.kicksecure.com
+
+They are the most reasonable options before you reach Qubes OS.
+
+RULE #1:
+DON'T HECK WITH THE USER. Ideally, I want the security improvements to be almost
+invisible to the User. Their workflow should not be interrupted. The system shouldn't
+be so secure/locked down that they can't get any work done and it becomes too
+inconvenient/annoying to use.
+
+2. CONTENT
+
+SOFTWARE PACKAGES FROM DEBIAN:
+debsums
+debsecan
+apt-listchanges
+#apt-listbugs
+rkhunter
+chkrootkit
+checksecurity
+lynis
+fail2ban
+endlessh
+firejail
+apparmor
+apparmor-notify
+apparmor-profiles
+apparmor-profiles-extra
+# You could condsider anti-malware scanning software, but I'm not sure how
+# effective this is. My inexperience fails to inform me.
+#clamtk
+#lmd
+
+
+INTERNET SECURITY:
+# The plan goes something like this: Hosts file + NextDNS + uBlock Origin outta do
+# the trick. 
+# My idea behind using the Hosts file is to make sure that the user never has the 
+# chance to resolve explicitly malicious/malware domains. Hopefully we can say:
+# "Hard to get malware on your computer if you can't go into harm's way". NextDNS
+# helps us get secure/encrypted DNS, additional content filtering of ads/trackers,
+# and provides us with some very nice analytics about which good domains are
+# accidentally blocked and being able to whitelist them on the fly (the unofficial 
+# Android app is super handy for this). It would be harder to whitelist the Hosts file
+# when you're AFK. Sure, you could use SSH, but the (unofficial) NextDNS app is much
+# easier/faster.
