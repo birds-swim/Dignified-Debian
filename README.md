@@ -9,7 +9,7 @@ Perhaps new Linux users might find this guide helpful?
 
 # Why Debian?
 
-Debian is a truly glorious system with a rightly-earned and well-established reputation for being bedrock stable, reliable, and dependable. Debian supports a ton of hardware. It has a huge software repository (59,000 packages in the Stable repos). Through the powers of Flatpak and DistroBox, point-release distros like Debian now have access to the freshest software available. You can extend this software availability even further with projects like Pacstall, Homebrew, or Nix (if your wizardly beard is long and gray enough). For my needs, I have found everything I've ever wanted from Debian Repos + Flatpak + Progressive Web Apps (via Chrome/Chromium based web browsers).
+Debian is a truly glorious system with a rightly-earned and well-established reputation for being bedrock stable, reliable, and dependable. Debian supports a ton of hardware. It has a huge software repository (59,000 packages in the Stable repos). Through the powers of Flatpak and DistroBox, point-release distros like Debian now have access to the freshest software available. You can extend this software availability even further with projects like Pacstall, Homebrew, or Nix (you have a wizard's beard that is long and gray). For my needs, I have found everything I've ever wanted from Debian Repos + Flatpak + Progressive Web Apps (via Chrome/Chromium based web browsers). Custom kernels like Liquorix were designed specifically for Debian to improve not only gaming on Debian but many other resource-intensive workloads.
 
 # Why Spiral Linux?
 
