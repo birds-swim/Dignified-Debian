@@ -1,0 +1,6 @@
+PACKAGES THAT SIGNIFICANTLY MODIFY/CHANGE SYSTEM BEHAIVIOR:
+
+AppArmor               AppArmor Notify (Create a notification whenever CUPS is blocked)
+prelockd               rkhunter (Rootkit Scanner)
+needrestart            lynis (System Security Audit)
+command-not-found      
