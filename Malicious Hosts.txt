@@ -1,0 +1,11 @@
+############################################
+###       MALWARE/MALICIOUS DOMAINS      ###
+############################################
+
+# Protection against strictly malware/malicious domains Sources used
+# for this hosts file are provided by their corresponding URLS.
+# I just don't like the idea of giving my computer a chance to connect
+# to any of these.
+
+########  BEGIN LIST:
+
