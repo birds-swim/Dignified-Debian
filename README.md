@@ -7,6 +7,10 @@ This guide was created to remind myself how I created this system to my personal
 
 Perhaps new Linux users might find this guide helpful?
 
+# Why Debian?
+
+Debian is a truly glorious system with a rightly-earned and well-established reputation for being bedrock stable, reliable, and dependable. Debian supports a ton of hardware. It has a huge software repository (59,000 packages in the Stable repos). Through the powers of Flatpak and DistroBox, point-release distros like Debian now have access to the freshest software available. You can extend this software availability even further with projects like Pacstall, Homebrew, or Nix (if your wizardly beard is long and gray enough). For my needs, I have found everything I've ever wanted from Debian Repos + Flatpak + Progressive Web Apps (via Chrome/Chromium based web browsers).
+
 # Why Spiral Linux?
 
 (1) My favorite distro.
@@ -18,6 +22,7 @@ Perhaps new Linux users might find this guide helpful?
 - setting up timezones
 - installing zRAM/zRAM-Swap
 - enabling Debian Backports
+- getting Bluetooth or Printers working
 - installing Flatpak
 - getting nonfree firmware/codecs installed on your computer
 - installing Grub Customizer
@@ -37,3 +42,5 @@ Unique advantages when picking Spiral Linux Builder Edition (SLBE) over other si
 - If you're on very old hardware, you can just keep SLBE as-is and use its IceWM graphical environment (which is lighter than Xfce or LXQt). zRAM Swap helps greatly improve performance on these very old and limited machines. Gives you the freedom to choose between installing (via Synaptic or apt) lightweight GUI apps like Thunar or Mousepad/Featherpad or Terminal-centric apps like Ranger/nnn/MC file manager.
 - Like Arch, you can choose the custom WM route or the full Desktop Environment route.
 - You can morph Spiral Linux into other Debian distros like Kicksecure (security-hardened Debian) or Regolith Linux (uses i3 WM and GNOME applications). Rollback your system with Snapper if you don't like the changes.
+- Building your system (via the Terminal) while having access to a web browser (Firefox) is really nice. Don't forget to use `nmtui` to connect to the Internet!
+- Pretty damn minimal while keeping the promises made by the developer for Spiral Linux (easy to use/administer, hardware support enabled, Bluetooh/Printer support enabled, Snapper included, etc.)
