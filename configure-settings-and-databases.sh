@@ -1,7 +1,7 @@
 #!/bin/bash
 # setup ufw, flatpak, mlocate, apt file, and other stuff here
 # There are a lot of programs that don't get configured or refreshed that need to be after they are installed.
-# This shell script aims to setup all those things.
+# This shell script aims to setup all those things and/or inform the User of any manual configuration.
 
 #### Install software here.
 
