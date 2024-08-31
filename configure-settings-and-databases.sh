@@ -188,4 +188,9 @@ echo " " >> ~/Documents/APPARMOR-AND-FIREJAIL-ONLINE-SOURCES.txt
 echo "Google, YouTube, and Reddit are great sources to learn more about these tools." >> ~/Documents/APPARMOR-AND-FIREJAIL-ONLINE-SOURCES.txt
 echo " " >> ~/Documents/APPARMOR-AND-FIREJAIL-ONLINE-SOURCES.txt
 
+echo ""
+echo "The file 'APPARMOR-AND-FIREJAIL-ONLINE-SOURCES.txt' has been added to your Documents folder."
+echo ""
+echo "FINISHED."
+echo ""
 exit
