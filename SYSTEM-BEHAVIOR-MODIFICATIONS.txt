@@ -1,6 +1,10 @@
 PACKAGES THAT SIGNIFICANTLY MODIFY/CHANGE SYSTEM BEHAIVIOR:
 
-AppArmor               AppArmor Notify (Create a notification whenever CUPS is blocked)
-prelockd               rkhunter (Rootkit Scanner)
+AppArmor               AppArmor Notify (Create a notification whenever CUPS is blocked?)
+EarlyOOM (ships w/ Spiral)                rkhunter (Rootkit Scanner)
 needrestart            lynis (System Security Audit)
-command-not-found      
+command-not-found      firejail           ufw
+
+# Liquorix
+zswap (NOT zRAM!) has been DISABLED with "zswap.enabled=0" in /etc/default/grub under the "GRUB_CMDLINE_LINUX_DEFAULT=" section!
+This is for optimal compatibility for Spiral Linux (For details, see https://github.com/orgs/SpiralLinux/discussions/472)
