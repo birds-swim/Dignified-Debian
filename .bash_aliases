@@ -6,10 +6,24 @@
 
 
 ### Nala and Apt
+alias nupd="sudo nala update"
+alias nupg="sudo nala upgrade"
+alias nfull="sudo nala dist-upgrade"
+alias nsrch="nala search"
+alias asrch="apt-cache search"
+alias upd8="sudo apt-get update && sudo apt-get -V upgrade"
+alias afup="sudo apt-file update"
 
+# Update Entire System
+alias fullupdate="sudo nala upgrade && flatpak -y update && sudo apt-file update && sudo updatedb && sudo rkhunter --update"
+
+### Sudo
+alias kingme="sudo su -l"
+alias godmode="sudo su -l"
 
 ### Security Scans and System Maintenance
-
+alias resetufw="sudo ufw reset && sudo ufw default deny incoming && sudo ufw default allow outgoing && sudo allow cups && sudo ufw reload"
+alias fullscan="sudo rkhunter --update && sudo rkhunter --check 
 
 ### Btrfs Maintenance
 
